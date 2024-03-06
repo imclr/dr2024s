@@ -105,9 +105,11 @@ export default function Home() {
           <ModalHeader>Abstract</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            Resolution of the qLDPC conjecture: proving 
-            the existence of classical  locally testable codes (LTCs) of constant rate, constant locality, and constant normalized minimum distance, 
-            and slightly weaker: the existence of asymptotically good families of qLDPC codes.
+            Resolution of the LDPC conjecture. 
+            
+            Proving the existence of classical locally testable codes (LTCs) of constant rate, constant locality, and constant normalized minimum distance.
+
+            Proving the slightly weaker result for the quantum case: the existence of asymptotically good families of qLDPC codes.
           </ModalBody>
 
           <ModalFooter>
