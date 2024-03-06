@@ -4,7 +4,7 @@ import renderMathInElement from 'katex/dist/contrib/auto-render';
 import 'katex/dist/katex.min.css';
 import { useEffect, useRef } from 'react';
 
-export default function Math({ text, ...delegated }: any) {
+export default function Math({ text, ...delegated }) {
 
   const MathRef = useRef();
 
