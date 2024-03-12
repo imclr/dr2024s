@@ -37,6 +37,8 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 
+import Paper from "../components/paper";
+
 import ZoomOutMapIcon from "@mui/icons-material/ZoomOutMap";
 import { Highlight, Heading } from "@chakra-ui/react";
 
