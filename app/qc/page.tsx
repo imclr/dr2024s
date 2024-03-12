@@ -103,13 +103,12 @@ export default function Home() {
                       isExternal
                     >
                       {" "}
-                      Mixed-state entanglement from local randomized measurements{" "}
+                      Mixed-state entanglement from local randomized
+                      measurements{" "}
                     </Link>
                   </Th>
-                  <Th>
-                  </Th>
-                  <Th>
-                  </Th>
+                  <Th></Th>
+                  <Th></Th>
                 </Tr>
               </Thead>
               <Thead>
@@ -122,13 +121,12 @@ export default function Home() {
                       isExternal
                     >
                       {" "}
-                      Entanglement-enabled advantage for learning a bosonic random displacement channel{" "}
+                      Entanglement-enabled advantage for learning a bosonic
+                      random displacement channel{" "}
                     </Link>
                   </Th>
-                  <Th>
-                  </Th>
-                  <Th>
-                  </Th>
+                  <Th></Th>
+                  <Th></Th>
                 </Tr>
               </Thead>
               <Thead>
@@ -141,14 +139,12 @@ export default function Home() {
                       isExternal
                     >
                       {" "}
-                      Initial state preparation for quantum chemistry on quantum computers
-                      {" "}
+                      Initial state preparation for quantum chemistry on quantum
+                      computers{" "}
                     </Link>
                   </Th>
-                  <Th>
-                  </Th>
-                  <Th>
-                  </Th>
+                  <Th></Th>
+                  <Th></Th>
                 </Tr>
               </Thead>
               <Thead>
@@ -164,10 +160,8 @@ export default function Home() {
                       Weight Reduced Stabilizer Codes with Lower Overhead{" "}
                     </Link>
                   </Th>
-                  <Th>
-                  </Th>
-                  <Th>
-                  </Th>
+                  <Th></Th>
+                  <Th></Th>
                 </Tr>
               </Thead>
             </Table>
@@ -181,9 +175,13 @@ export default function Home() {
           <ModalHeader>Abstract</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            "Penrose Tiling give rise to a remarkable new type of QECC. 
-            In this code, quantum information is encoded through quantum geometry, and any local errors or erasures in any finite region, no matter how large, may be diagnosed and corrected. 
-            We also construct variants of this code (based on the Ammann-Beenker and Fibonacci tilings) that can live on finite spatial tori, in discrete spin systems, or in an arbitrary number of spatial dimensions."
+            "Penrose Tiling give rise to a remarkable new type of QECC. In this
+            code, quantum information is encoded through quantum geometry, and
+            any local errors or erasures in any finite region, no matter how
+            large, may be diagnosed and corrected. We also construct variants of
+            this code (based on the Ammann-Beenker and Fibonacci tilings) that
+            can live on finite spatial tori, in discrete spin systems, or in an
+            arbitrary number of spatial dimensions."
           </ModalBody>
 
           <ModalFooter>
@@ -203,10 +201,10 @@ export default function Home() {
         <Box w="80%">
           <Giscus
             id="comment"
-            repoId='R_kgDOLcMQFw'
+            repoId="R_kgDOLcMQFw"
             repo="imclr/dr2024s"
             category="Comments"
-            categoryId='DIC_kwDOLcMQF84CdwG0'
+            categoryId="DIC_kwDOLcMQF84CdwG0"
             mapping="url"
             term="Term?"
             reactionsEnabled="1"
