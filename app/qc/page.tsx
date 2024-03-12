@@ -175,13 +175,13 @@ export default function Home() {
           <ModalHeader>Abstract</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            "Penrose Tiling give rise to a remarkable new type of QECC. In this
+            &ldquo;Penrose Tiling give rise to a remarkable new type of QECC. In this
             code, quantum information is encoded through quantum geometry, and
             any local errors or erasures in any finite region, no matter how
             large, may be diagnosed and corrected. We also construct variants of
             this code (based on the Ammann-Beenker and Fibonacci tilings) that
             can live on finite spatial tori, in discrete spin systems, or in an
-            arbitrary number of spatial dimensions."
+            arbitrary number of spatial dimensions.&rdquo;
           </ModalBody>
 
           <ModalFooter>
