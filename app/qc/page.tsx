@@ -75,13 +75,12 @@ export default function Home() {
                   <Th isNumeric>1</Th>
                   <Th>
                     <Link
-                      href="https://dl.acm.org/doi/abs/10.1145/3519935.3520017"
+                      href="https://arxiv.org/pdf/2311.13040.pdf"
                       color="teal.500"
                       isExternal
                     >
                       {" "}
-                      Asymptotically Good Quantum and Locally Testable Classical
-                      LDPC Codes{" "}
+                      The Penrose Tiling is a Quantum Error-Correcting Code{" "}
                     </Link>
                   </Th>
                   <Th>
@@ -90,7 +89,84 @@ export default function Home() {
                     </Button>{" "}
                   </Th>
                   <Th>
-                    <Badge colorScheme="purple">Error Correcting Codes</Badge>
+                    <Badge colorScheme="purple">QECC</Badge>
+                  </Th>
+                </Tr>
+              </Thead>
+              <Thead>
+                <Tr>
+                  <Th isNumeric>2</Th>
+                  <Th>
+                    <Link
+                      href="https://arxiv.org/pdf/2007.06305.pdf"
+                      color="teal.500"
+                      isExternal
+                    >
+                      {" "}
+                      Mixed-state entanglement from local randomized measurements{" "}
+                    </Link>
+                  </Th>
+                  <Th>
+                  </Th>
+                  <Th>
+                  </Th>
+                </Tr>
+              </Thead>
+              <Thead>
+                <Tr>
+                  <Th isNumeric>3</Th>
+                  <Th>
+                    <Link
+                      href="https://arxiv.org/pdf/2402.18809.pdf"
+                      color="teal.500"
+                      isExternal
+                    >
+                      {" "}
+                      Entanglement-enabled advantage for learning a bosonic random displacement channel{" "}
+                    </Link>
+                  </Th>
+                  <Th>
+                  </Th>
+                  <Th>
+                  </Th>
+                </Tr>
+              </Thead>
+              <Thead>
+                <Tr>
+                  <Th isNumeric>4</Th>
+                  <Th>
+                    <Link
+                      href="https://arxiv.org/pdf/2310.18410.pdf"
+                      color="teal.500"
+                      isExternal
+                    >
+                      {" "}
+                      Initial state preparation for quantum chemistry on quantum computers
+                      {" "}
+                    </Link>
+                  </Th>
+                  <Th>
+                  </Th>
+                  <Th>
+                  </Th>
+                </Tr>
+              </Thead>
+              <Thead>
+                <Tr>
+                  <Th isNumeric>5</Th>
+                  <Th>
+                    <Link
+                      href="https://arxiv.org/pdf/2402.05228.pdf"
+                      color="teal.500"
+                      isExternal
+                    >
+                      {" "}
+                      Weight Reduced Stabilizer Codes with Lower Overhead{" "}
+                    </Link>
+                  </Th>
+                  <Th>
+                  </Th>
+                  <Th>
                   </Th>
                 </Tr>
               </Thead>
@@ -105,11 +181,9 @@ export default function Home() {
           <ModalHeader>Abstract</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            Resolution of the LDPC conjecture. 
-            
-            Proving the existence of classical locally testable codes (LTCs) of constant rate, constant locality, and constant normalized minimum distance.
-
-            Proving the slightly weaker result for the quantum case: the existence of asymptotically good families of qLDPC codes.
+            "Penrose Tiling give rise to a remarkable new type of QECC. 
+            In this code, quantum information is encoded through quantum geometry, and any local errors or erasures in any finite region, no matter how large, may be diagnosed and corrected. 
+            We also construct variants of this code (based on the Ammann-Beenker and Fibonacci tilings) that can live on finite spatial tori, in discrete spin systems, or in an arbitrary number of spatial dimensions."
           </ModalBody>
 
           <ModalFooter>
@@ -117,7 +191,7 @@ export default function Home() {
               Close
             </Button>
             <Button colorScheme="blue" ml={3} onClick={onClose}>
-              <Link href="https://arxiv.org/pdf/2111.03654.pdf" isExternal>
+              <Link href="https://arxiv.org/pdf/2311.13040.pdf" isExternal>
                 View Paper
               </Link>
             </Button>
