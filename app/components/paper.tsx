@@ -46,7 +46,7 @@ id,
   tag,
   abstract,
 }: {
-    id: number,
+    id?: number ,
   title: string;
   link: string;
   tag: string;
@@ -66,9 +66,11 @@ id,
             </Link>
           </Th>
           <Th>
-            <Button onClick={onOpen} variant="link">
+            {id && <Button onClick={onOpen} variant="link">
               Read
-            </Button>{" "}
+            </Button>
+              }
+              {" "}
           </Th>
           <Th>
             <Badge colorScheme="purple">{tag}</Badge>

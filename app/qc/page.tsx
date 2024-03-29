@@ -27,6 +27,8 @@ import { Link } from "@chakra-ui/react";
 import React from "react";
 import { useDisclosure } from "@chakra-ui/react";
 import Math from "../components/math";
+import Paper from "../components/paper";
+
 import {
   Modal,
   ModalOverlay,
@@ -37,7 +39,6 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 
-import Paper from "../components/paper";
 
 import ZoomOutMapIcon from "@mui/icons-material/ZoomOutMap";
 import { Highlight, Heading } from "@chakra-ui/react";
@@ -95,9 +96,53 @@ export default function Home() {
                   </Th>
                 </Tr>
               </Thead>
+              <Paper
+                id={2}
+                title={
+                  "High-threshold and low-overhead fault-tolerant quantum memory"
+                }
+                link={
+                  "https://www.nature.com/articles/s41586-024-07107-7"
+                }
+                abstract={"An end-to-end quantum error correction protocol that implements fault-tolerant memory on the basis of a family of low-density parity-check codes."}
+                tag={"LDPC Code"}
+              />
+                <Paper
+                id={undefined}
+                title={
+                  "Topological entanglement entropy"
+                }
+                link={
+                  "https://arxiv.org/pdf/hep-th/0510092.pdf"
+                }
+                abstract={""}
+                tag={""}
+              />
+                <Paper
+                id={undefined}
+                title={
+                  "Anyons in an exactly solved model and beyond"
+                }
+                link={
+                  "https://arxiv.org/pdf/cond-mat/0506438.pdf"
+                }
+                abstract={""}
+                tag={""}
+              />
+                <Paper
+                id={undefined}
+                title={
+                  "(Video) Topological quantum phases (Alexei Kitaev)"
+                }
+                link={
+                  "https://youtu.be/W2vUbTR2RWQ?si=VfJSVmRuvXL-32M8"
+                }
+                abstract={""}
+                tag={""}
+              />
               <Thead>
                 <Tr>
-                  <Th isNumeric>2</Th>
+                  <Th isNumeric></Th>
                   <Th>
                     <Link
                       href="https://arxiv.org/pdf/2007.06305.pdf"
@@ -115,7 +160,7 @@ export default function Home() {
               </Thead>
               <Thead>
                 <Tr>
-                  <Th isNumeric>3</Th>
+                  <Th isNumeric></Th>
                   <Th>
                     <Link
                       href="https://arxiv.org/pdf/2402.18809.pdf"
@@ -133,7 +178,7 @@ export default function Home() {
               </Thead>
               <Thead>
                 <Tr>
-                  <Th isNumeric>4</Th>
+                  <Th isNumeric></Th>
                   <Th>
                     <Link
                       href="https://arxiv.org/pdf/2310.18410.pdf"
@@ -151,7 +196,7 @@ export default function Home() {
               </Thead>
               <Thead>
                 <Tr>
-                  <Th isNumeric>5</Th>
+                  <Th isNumeric></Th>
                   <Th>
                     <Link
                       href="https://arxiv.org/pdf/2402.05228.pdf"
