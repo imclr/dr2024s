@@ -146,6 +146,17 @@ export default function Home() {
                 abstract={"See link"}
                 tag={"Formal Reasoning"}
               />
+              <Paper
+                id={7}
+                title={
+                  "Formal Verification of the Empty Hexagon Number"
+                }
+                link={
+                  "https://arxiv.org/pdf/2403.17370v1.pdf"
+                }
+                abstract={"See blog at https://www.amazon.science/blog/amazon-scholar-solves-century-old-problem-with-automated-reasoning"}
+                tag={"SAT"}
+              />
             </Table>
           </TableContainer>
         </Box>
